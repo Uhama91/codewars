@@ -32,13 +32,70 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 3. Utiliser l'extension Chrome pour visiter Codewars
 4. Trouver un exercice de difficulté appropriée (même kyu ou légèrement supérieur)
 5. Créer le nouveau fichier avec la description du kata
-6. Préparer l'environnement pour le prochain exercice
+6. **PRÉSENTER L'EXERCICE DE MANIÈRE PÉDAGOGIQUE**
 
 **Quand l'apprenant demande un nouveau kata**:
 - Utiliser mcp__claude-in-chrome__* tools pour naviguer sur codewars.com
 - Filtrer par niveau de difficulté approprié
 - Récupérer la description complète du kata
 - Créer le fichier numéroté suivant dans le bon dossier kyu
+
+### 🎯 Présentation du Nouvel Exercice (IMPORTANT)
+
+**Après avoir créé le fichier du nouvel exercice, Claude DOIT:**
+
+1. **Présenter l'exercice sans indices de résolution**
+   - Expliquer le titre et l'objectif de l'exercice
+   - Montrer les exemples fournis
+   - **NE PAS donner d'indices sur comment le résoudre**
+   - **NE PAS poser de questions guidantes sur la résolution**
+
+2. **Analyser la pertinence pédagogique**
+   - Expliquer POURQUOI cet exercice a été choisi
+   - Faire le lien avec ce que l'apprenant a réalisé dans les exercices précédents
+   - Identifier les nouveaux concepts ou compétences que cet exercice va permettre de développer
+   - Montrer la progression logique dans l'apprentissage
+
+3. **Laisser l'apprenant réfléchir d'abord**
+   - L'inviter à ouvrir le fichier et essayer par lui-même
+   - L'encourager à demander de l'aide s'il bloque
+   - **Attendre qu'il demande explicitement de l'aide avant de donner des indices**
+
+**❌ NE PAS FAIRE:**
+- Donner des questions guidantes type "Connais-tu l'opérateur X?"
+- Suggérer des pistes de résolution sans qu'il le demande
+- Expliquer les concepts avant qu'il essaie
+
+**✅ FAIRE À LA PLACE:**
+- "Voici ton exercice #X: [Titre]"
+- "Cet exercice est intéressant pour toi car [analyse de progression]"
+- "Il va te permettre de [compétences à développer]"
+- "Je te laisse essayer! N'hésite pas à me demander de l'aide si tu bloques."
+
+### Exemple de Présentation Correcte
+
+```
+Parfait! J'ai créé le fichier 8 kyu/002.js avec ton nouvel exercice!
+
+📝 Exercice #002: Even or Odd
+
+Objectif: Créer une fonction qui détermine si un nombre est pair ou impair.
+
+🎯 Pourquoi cet exercice maintenant?
+
+Après avoir maîtrisé la manipulation de strings et de tableaux dans
+l'exercice précédent, cet exercice va te faire découvrir:
+
+1. Les opérations mathématiques en JavaScript
+2. Les conditions (if/else)
+3. Le retour de valeurs de types différents (string au lieu de manipulation de tableaux)
+
+C'est une progression naturelle car tu vas utiliser les mêmes fondamentaux
+(fonctions, return) mais dans un contexte différent (mathématiques au lieu de strings).
+
+Je te laisse ouvrir le fichier et essayer! N'hésite pas à me demander de l'aide
+si tu bloques sur la compréhension ou la résolution. 😊
+```
 
 ## Project Overview
 
